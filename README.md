@@ -2,6 +2,8 @@
 
 最初需求：为了自定义http文件下载服务中的Content-Type字段，以满足测试需求。
 
+## ToDo
+默认的Header字段全是小写，。。。。。。    Fuck YOU !!!!
 
 ```
  ~/tinyserve/target/debug/ [main+*] ./tinyserve -h
@@ -32,4 +34,11 @@ Options:
 < date: Wed, 14 Jun 2023 06:44:02 GMT
 <
 <?php
+```
+
+
+# 改用Python实现：
+
+```
+python tinyserve.py
 ```
