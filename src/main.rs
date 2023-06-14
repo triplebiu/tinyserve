@@ -105,7 +105,7 @@ async fn main() {
         Some(headerlist) => {
             for header in headerlist {
                 let header2:Vec<String> = header.split(":").map(str::to_string).collect();
-                headers.insert(header2[0].to_lowercase().clone(),header2[1].clone());
+                headers.insert(header2[0].clone(),header2[1].clone());
             };
             ()
         },
